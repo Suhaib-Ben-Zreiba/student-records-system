@@ -15,29 +15,29 @@ A command line application built in Java that demonstrates object-oriented desig
 
 ## Project Structure
 student-records-system/
-+-- data/
-¦   +-- students.csv
-+-- src/
-¦   +-- Main.java
-¦   +-- model/
-¦   ¦   +-- Student.java
-¦   +-- service/
-¦   ¦   +-- RecordManager.java
-¦   +-- storage/
-¦       +-- FileStorage.java
+  data/
+    students.csv
+  src/
+    Main.java
+    model/
+      Student.java
+    service/
+      RecordManager.java
+    storage/
+      FileStorage.java
 
 ## Requirements
 - Java 17 or newer
 
 ## How to Run (Windows PowerShell)
 
-### Compile
+Compile:
 javac -d out src\Main.java src\model\Student.java src\service\RecordManager.java src\storage\FileStorage.java
 
-### Run
+Run:
 java -cp out Main
 
 ## Notes
-- GPA is validated to be between 0.0 and 12.0
+- GPA is validated between 0.0 and 12.0
 - CSV data is stored in data\students.csv
-- Invalid CSV rows are safely skipped during load
+- Invalid CSV rows are skipped during load
