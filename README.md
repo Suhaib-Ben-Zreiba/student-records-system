@@ -40,7 +40,7 @@ student-records-system/
 
 │       └── FileStorage.java
 
-` ``` `
+
 
 ## Requirements
 
@@ -56,7 +56,7 @@ javac -d out src\\Main.java src\\model\\Student.java src\\service\\RecordManager
 Run:
 java -cp out Main
 
-&nbsp;` ``` `
+
 
 ## Notes
 
