@@ -40,17 +40,23 @@ student-records-system/
 
 │       └── FileStorage.java
 
+` ``` `
+
 ## Requirements
 
 * Java 17 or newer
 
 ## How to Run (Windows PowerShell)
 
+```text
+
 Compile:
 javac -d out src\\Main.java src\\model\\Student.java src\\service\\RecordManager.java src\\storage\\FileStorage.java
 
 Run:
 java -cp out Main
+
+&nbsp;` ``` `
 
 ## Notes
 
