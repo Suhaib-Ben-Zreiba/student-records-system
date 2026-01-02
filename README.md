@@ -16,27 +16,29 @@ A command line application built in Java that demonstrates object-oriented desig
 
 ## Project Structure
 
+```text
+
 student-records-system/
 
-+-- data/
+├── data/
 
-|   +-- students.csv
+│   └── students.csv
 
-+-- src/
+├── src/
 
-|   +-- Main.java
+│   ├── Main.java
 
-|   +-- model/
+│   ├── model/
 
-|   |   +-- Student.java
+│   │   └── Student.java
 
-|   +-- service/
+│   ├── service/
 
-|   |   +-- RecordManager.java
+│   │   └── RecordManager.java
 
-|   +-- storage/
+│   └── storage/
 
-|       +-- FileStorage.java
+│       └── FileStorage.java
 
 ## Requirements
 
